@@ -7,3 +7,7 @@
 ![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2b-f7df1e?logo=javascript&style=for-the-badge)
 ![Open-Meteo](https://img.shields.io/badge/Open--Meteo-API-ef6c00?style=for-the-badge)
 ![Nominatim](https://img.shields.io/badge/Nominatim-API-7ebc6f?style=for-the-badge)
+
+## Credits
+
+- [Pixelify Sans](https://github.com/eifetx/Pixelify-Sans) — The Pixelify Sans Project Authors, licensed under the SIL Open Font License 1.1 (OFL).
