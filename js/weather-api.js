@@ -11,13 +11,14 @@ const OPEN_METEO_FORECAST_URL = 'https://api.open-meteo.com/v1/forecast';
  * * `latitude`: latitude coordinate
  * * `longitude`: longitude coordinate
  * * `current`: current weather fields (`temperature_2m`, `weather_code`)
+ * * `temperature_unit`: temperature unit (`fahrenheit`)
  * 
  * @param {number} latitude - latitude coordinate
  * @param {number} longitude - longitude coordinate
  * @returns {Promise<Object>} raw open-meteo response
 */
 export async function getWeather(latitude, longitude) {
-    const url = `${OPEN_METEO_FORECAST_URL}?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,weather_code`;
+    const url = `${OPEN_METEO_FORECAST_URL}?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,weather_code&temperature_unit=fahrenheit`;
 
     const response = await fetch(url);
 
