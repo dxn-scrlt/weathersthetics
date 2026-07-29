@@ -6,6 +6,8 @@
  * official wmo weather codes: https://codes.wmo.int/306/4678
  * 
  * open-meteo api documentation: https://open-meteo.com/en/docs
+ * 
+ * @type {Object<number, string>}
 */
 export const WEATHER_CODES = {
     0: "clear",
