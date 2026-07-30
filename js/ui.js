@@ -60,3 +60,22 @@ export function updateWeatherTheme(weather) {
     body.style.backgroundImage = `url('${assets.background}')`;
     favicon.href = assets.favicon;
 }
+
+/**
+ * sets initial ui display
+ * 
+ * @param {Object} placeholder - placeholder data with location, weather, and assets 
+ * @param {string} placeholder.place - name of place to display
+ * @param {Object} placeholder.weather - weather data to display
+ * @param {number} placeholder.weather.temperature - temperature value
+ * @param {string} placeholder.weather.condition - weather description
+ * @param {Object} placeholder.weather.assets - visual assets
+ * @param {string} placeholder.weather.assets.icon - card icon path
+ * @param {string} placeholder.weather.assets.background - background path
+ * @param {string} placeholder.weather.assets.favicon - favicon path
+*/
+export function setPlaceholder(placeholder) {
+    updateLocation(placeholder.place);
+    updateWeather(placeholder.weather);
+    updateWeatherTheme(placeholder.weather);
+}
