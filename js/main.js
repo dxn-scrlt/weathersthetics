@@ -1,19 +1,17 @@
 import { WEATHER_CODES } from './weather-codes.js';
 import { getLocationDetails } from './location-api.js';
 import { getWeather } from './weather-api.js';
+import { getWeatherAssetPaths } from './weather-assets.js';
 import { updateTime, updateLocation, updateWeather, updateWeatherTheme, setPlaceholder } from './ui.js';
 
 async function init() {
+    const placeholderCondition = WEATHER_CODES[0];
     const placeholder = {
         place: 'jersey city',
         weather: {
             temperature: 72,
-            condition: WEATHER_CODES[0],
-            assets: {
-                icon: '',
-                background: '',
-                favicon: ''
-            }
+            condition: placeholderCondition,
+            assets: getWeatherAssetPaths(placeholderCondition)
         }
     };
     setPlaceholder(placeholder);
@@ -40,14 +38,11 @@ async function init() {
     updateLocation(place);
 
     const currentWeather = weatherData.current;
+    const condition = WEATHER_CODES[currentWeather.weather_code];
     const weather = {
         temperature: currentWeather.temperature_2m,
-        condition: WEATHER_CODES[currentWeather.weather_code],
-        assets: {
-            icon: '',
-            background: '',
-            favicon: ''
-        }
+        condition: condition,
+        assets: getWeatherAssetPaths(condition)
     };
     updateWeather(weather);
     updateWeatherTheme(weather);
