@@ -23,9 +23,14 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  align-items: center;
+  gap: 16px;
   width: fit-content;
-  padding: 20px;
+  padding: 20px 60px;
+}
+
+.card * {
+  margin: 0;
 }
 
 .glass {
