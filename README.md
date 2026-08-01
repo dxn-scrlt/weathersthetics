@@ -1,5 +1,10 @@
 # weathersthetics
 
+[![Live Site](https://img.shields.io/badge/live-site-success?logo=github&style=for-the-badge)](https://dxn-scrlt.github.io/weathersthetics)
+![Version](https://img.shields.io/badge/version-1.0.0-a7c7e7?style=for-the-badge)
+![GitHub Pages](https://img.shields.io/badge/github-pages-121013?logo=github&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/dxn-scrlt/weathersthetics?style=for-the-badge)
+
 ## Tech Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-ffffff?logo=html5&style=for-the-badge)
