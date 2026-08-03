@@ -21,6 +21,17 @@
 ![Open-Meteo](https://img.shields.io/badge/Open--Meteo-API-ef6c00?style=for-the-badge)
 ![Nominatim](https://img.shields.io/badge/Nominatim-API-7ebc6f?style=for-the-badge)
 
+## Contributing
+
+Asset contributions are welcome
+
+- Open an issue describing the asset you want to contribute (`sunny.png` favicon, `cloudy.png` icon, `rainy.gif` background, etc.)
+- Include your [Instagram](https://instagram.com) handle for communication
+
+Contributed assets must include permission for use within weathersthetics and any required attribution information
+
+Contributors retain ownership of their contributed assets and will be credited accordingly
+
 ## License
 
 © 2026 dxn-scrlt •
