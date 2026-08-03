@@ -35,7 +35,7 @@ Contributors retain ownership of their contributed assets and will be credited a
 ## License
 
 © 2026 dxn-scrlt •
-This project and its original assets are proprietary •
+weathersthetics and its original assets are proprietary •
 All rights reserved
 
 ## Credits
