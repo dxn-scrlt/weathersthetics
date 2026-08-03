@@ -21,6 +21,12 @@
 ![Open-Meteo](https://img.shields.io/badge/Open--Meteo-API-ef6c00?style=for-the-badge)
 ![Nominatim](https://img.shields.io/badge/Nominatim-API-7ebc6f?style=for-the-badge)
 
+## License
+
+© 2026 dxn-scrlt •
+This project and its original assets are proprietary •
+All rights reserved
+
 ## Credits
 
 - [Pixelify Sans](https://github.com/eifetx/Pixelify-Sans) — The Pixelify Sans Project Authors, licensed under the SIL Open Font License 1.1 (OFL).
