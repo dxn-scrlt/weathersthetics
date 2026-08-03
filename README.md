@@ -5,6 +5,14 @@
 ![GitHub Pages](https://img.shields.io/badge/github-pages-121013?logo=github&style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/dxn-scrlt/weathersthetics?style=for-the-badge)
 
+## Features
+
+- Current local weather
+- Browser [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
+- Reverse geocoding with [Nominatim](https://nominatim.org/release-docs/develop/api/Reverse)
+- Real-time weather data from [Open-Meteo](https://open-meteo.com/en/docs)
+- Pixel-art card-based UI aesthetic
+
 ## Tech Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-ffffff?logo=html5&style=for-the-badge)
