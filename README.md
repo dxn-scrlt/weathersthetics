@@ -40,4 +40,4 @@ All rights reserved
 
 ## Credits
 
-- [Pixelify Sans](https://github.com/eifetx/Pixelify-Sans) — The Pixelify Sans Project Authors, licensed under the SIL Open Font License 1.1 (OFL).
+- [Pixelify Sans](https://github.com/eifetx/Pixelify-Sans) — Stefie Justprince, licensed under the SIL Open Font License 1.1 (OFL)
